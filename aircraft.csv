@@ -1,4 +1,0 @@
-type	seat	max	capacity	minFirst
-medN	8	2650	180	8
-largeN	7	5600	220	10
-medW	5	4050	406	14
