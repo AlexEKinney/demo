@@ -113,7 +113,6 @@ def enter_flight_details():
         selected_aircraft_type = aircraft_type_menu.get().upper()
 
         entered_first_class_seats = int(first_class_seats_entry.get())
-
         min_seats = aircraft_data[selected_aircraft_type]["min_first_class_seats"]
         max_seats = aircraft_data[selected_aircraft_type]["capacity"] // 2 ## javascript 
         if entered_first_class_seats < min_seats:

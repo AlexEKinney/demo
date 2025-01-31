@@ -35,7 +35,6 @@ def estimate_cost():
     else:
         exit()
 
-
 def employee_details():
     print("Employee details")
     employee_name = input("Enter the name of the employee: ")
